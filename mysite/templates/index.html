@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=1440"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "styles/index.css" %}">
+    <link rel="stylesheet" href="{% static "styles/adaptive.css" %}">
+    <script defer src="{% static "js/App.js" %}" type="module"></script>
+    <script async src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <title>CRAPPO</title>
+</head>
+
+<body>
+
+    <div class="container">
+        {% include 'burger_menu.html' %}
+        <section class="modal">
+            <h2 class="hidden">modal window</h2>
+            {% include 'login.html' %}
+            {% include 'registration.html' %}
+        </section>
+        {% include 'header.html' %}
+
+        <main class="main">
+            <h1 class="hidden">Fastest & secure platform to invest in crypto</h1>
+            <section class="main-title-section">
+                <div class="main-title-content">
+                <h2 class="hidden">Fastest & secure platform to invest in crypto</h2>
+                <div class="sale-information">
+                    <span>75% SAVE</span>
+                    <p>
+                        For the Black Friday weekend
+                    </p>
+                </div>
+                <p class="subtitle">{{ main_info.0.header }}</p>
+                <p class="title-description">{{ main_info.0.description }}</p>
+                    <a href="{{ main_info.0.url }}">
+                <button class="button title-button">
+                    <span class="title-btn-text">Try for FREE</span>
+                    <span class="title-btn-logo">
+                        <img src="{% static "/logos/Arrow.png" %}" alt="Try for free" class="btn-logo">
+                    </span>
+                </button>
+                    </a>
+            </div>
+            <img src="{% static "/img/btc_1.png" %}" alt="bitcoin images" class="btc_1">
+            </section>
+
+
+            <section class="advantages">
+                <h2 class="hidden">advantages</h2>
+                <ul class="advantages-list">
+                    {% for advertising in advertisings %}
+                    <li class="advantages-items">
+                        <img src="{{ advertising.image.url }}" alt="{{ advertising.alt }}" class="advantages-logos">
+                        <div class="advantages-items-description">
+                            <h3>{{ advertising.header }}</h3>
+                            <p>{{ advertising.description }}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+                <div class="advantages-title-list">
+                    <img src="{% static "/img/traid_1.png" %}" alt="traid image" class="treid_1">
+                    <div class="advantages-title">
+                    <p class="advantages-subtitle">{{ main_info.1.header }}</p>
+                    <p>{{ main_info.1.description }}</p>
+                    <button class="button btn-advantages">Learn More</button>
+                </div>
+                </div>
+            </section>
+
+            <section class="calculate-block">
+                <h2 class="hidden">calculate section</h2>
+                <div class="calculate-title">
+                    <p class="calculate-subtitle">Check how much you can earn</p>
+                    <p>Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat
+                        sunt nostrud amet.</p>
+                </div>
+                <div class="calculate">
+                    <form class="calculate-form-block">
+                        <input id="hash-rate" type="text" placeholder="Enter your hash rate">
+                        <select name="/" id="calculate-select-list">
+                            <option>Bitcoin</option>
+                            <option>Litecoin</option>
+
+                        </select>
+                        <button type="submit" class="button calculate-btn">Calculate</button>
+                    </form>
+                    <div class="calculate-output">
+                        <p class="estimated">ESTIMATED 24 HOUR REVENUE:</p>
+                        <div class="output-table">
+                            <p class="currency">0.055 130 59</p>
+                            <span class="cur-mon">ETH</span>
+                            <p class="dollars">($1275)</p>
+                        </div>
+                        <p class="warning">Revenue will change based on mining difficulty and Ethereum price.</p>
+                    </div>
+
+                </div>
+                <section class="slider">
+                    <h2 class="hidden">Trade securely and market the high growth cryptocurrencies.</h2>
+                    <p class="slider-title">Trade securely and market the high growth cryptocurrencies.</p>
+                    <div class="slider-card">
+                        <button class="button after-btn">
+                            <img src="{% static "/logos/Arrow-Right.png" %}" alt="after-slide">
+                        </button>
+                        {% for coin in coins %}
+                        <div class="{{ coin.div_class }}">
+                            <img src="{{ coin.image.url }}" alt="{{ coin.alt }}">
+                            <div class="card-information">
+                                <h3 class="{{ coin.card_information_title }}">{{ coin.header }}</h3>
+                                <p class="{{ coin.p_class }}">{{ coin.tag }}</p>
+                            </div>
+                            <p class="{{ coin.card_info }}">{{ coin.description }}</p>
+                        </div>
+                        {% endfor %}
+
+                        <button class="button before-btn">
+                            <img src="{% static "/logos/Arrow-Right.png" %}" alt="before-slide">
+                        </button>
+                    </div>
+                </section>
+            </section>
+            <section class="charts-block">
+                <h2 class="hidden">Market sentiments, portfolio, and run the infrastructure of your choice</h2>
+
+                <p class="charts-block-title">
+                    Market sentiments, portfolio, and run the infrastructure of your choice
+                </p>
+                <section class="charts-invest-smart">
+                    <div class="invest-smart-title">
+                        <h3>{{ main_info.2.header }}</h3>
+                        <p>{{ main_info.2.description }}</p>
+                        <button class="button charts-btn">Learn More</button>
+                    </div>
+                    <img src="{% static "/img/Chart1.png" %}" alt="Invest Smart chart">
+                </section>
+                <section class="statistics">
+                    {% if request.user.is_authenticated %}
+
+                    <canvas id="chart"></canvas>
+
+                    <div class="statistic-info">
+                        <h3>{{ main_info.3.header }}</h3>
+                        <p>{{ main_info.3.description }}</p>
+                        <div class="stat-block">
+                            <select name="stat-select-list" class="stat-select-list">
+                                <option>Bitcoin</option>
+
+                                <option>Ethereum</option>
+
+                                <option>Litecoin</option>
+
+                                </select>
+                            <button id="stat-btn" class="button charts-btn">Select</button>
+                        </div>
+                    </div>
+                        {% else %}
+                        <div class="invis-bar">
+                        <div class="invis-content">
+                            <p class="invis-content-title">{{ main_info.3.header }}</p>
+                            <p class="invis-content-subtitle">{{ main_info.3.description }}</p>
+                        </div>
+                        <form class="invis-form" action="{% url 'login' %}" method="POST">
+                            {% csrf_token %}
+                            <p class="form-title">Login</p>
+                            <input placeholder="Login" id="invise-login" type="text" name="username">
+                            <input placeholder="Password" id="invise-pass" type="password" name="password">
+                            <button class="invis-btn" type="submit">Authorization</button>
+                        </form>
+                    </div>
+                    {% endif %}
+                </section>
+                <section class="tracking-schedule">
+                    <div class="tracking-info">
+                        <h3>{{ main_info.4.header }}</h3>
+                        <p>{{ main_info.4.description }}</p>
+                        <div class="chart-button-block">
+                                <button class="button charts-btn">Learn More</button>
+                                <button class="button btn-upd">Update</button>
+                        </div>
+                    </div>
+                    <div class="chart-api-cryptocurrency">
+
+                        <ul class="chart-api-title">
+                            <li class="chart-api-title-item">
+                                <p>Price</p>
+                            </li>
+                            <li class="chart-api-title-item">
+                                <p>Change, %</p>
+                            </li>
+                            <li class="chart-api-title-item">
+                                <p>Volume (24h)</p>
+                            </li>
+                        </ul>
+                        <ul class="chart-api-list">
+                            <li class="chart-api-item">
+                                <div class="logo-chart">
+                                    <img src="{% static "logos/Icon_btc.png" %}" alt="Bitcoin logo">
+                                    <div class="title-cryptocurrency">
+                                        <h4>BTC</h4>
+                                        <p>Bitcoin</p>
+                                    </div>
+                                </div>
+                                <p class="price btc"></p>
+                                <p class="change btc"></p>
+                                <p class="volume btc"></p>
+                            </li>
+                            <li class="chart-api-item">
+                                <div class="logo-chart">
+                                    <img src="{% static "logos/ethereum-logo.png" %}" alt="Ethereum logo">
+                                    <div class="title-cryptocurrency">
+                                        <h4>ETH</h4>
+                                        <p>Ethereum</p>
+                                    </div>
+                                </div>
+                                <p class="price eth"></p>
+                                <p class="change eth"></p>
+                                <p class="volume eth"></p>
+                            </li>
+                            <li class="chart-api-item">
+                                <div class="logo-chart">
+                                    <img src="{% static "logos/litecoin-logo.png" %}" alt="Litecoin logo">
+                                    <div class="title-cryptocurrency">
+                                        <h4>LTC</h4>
+                                        <p>Litecoin</p>
+                                    </div>
+                                </div>
+                                <p class="price ltc"></p>
+                                <p class="change ltc"></p>
+                                <p class="volume ltc"></p>
+                            </li>
+                        </ul>
+                        <!-- <div id="chartContainer" style="height: 100%; width: 100%;"></div> -->
+
+                    </div>
+                </section>
+            </section>
+            {% include 'feedback.html' %}
+
+        </main>
+        {% include 'footer.html' %}
+    </div>
+
+</body>
+
+</html>

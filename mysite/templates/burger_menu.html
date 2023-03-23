@@ -1,0 +1,31 @@
+<div class="burger-menu">
+            <ul class="burger-menu_navigation-list">
+                <li class="navigation-list_nav-item burger-menu_nav-item">
+                    <a href="#" class="navigation-link burger-menu_nav-item">Products</a>
+                </li>
+                <li class="navigation-list_nav-item">
+                    <a href="#" class="navigation-link burger-menu_nav-item">Features</a>
+                </li>
+                <li class="navigation-list_nav-item">
+                    <a href="#" class="navigation-link burger-menu_nav-item">About</a>
+                </li>
+                <li class="navigation-list_nav-item">
+                    <a href="#" class="navigation-link burger-menu_nav-item">Contact</a>
+                </li>
+            </ul>
+            {% if request.user.is_authenticated %}
+                <p style="display: flex; justify-content: center; margin-bottom: 20px">
+                    <a href="{% url 'logout' %}" style="text-decoration: none; color: #2B076E">Logout</a>
+                </p>
+            {% else %}
+            <div class="burger-menu_login-reg">
+                <p class="header-login burger-logout">
+                    <a href="#" class="header-login-link burger-btn-login">Login</a>
+                </p>
+                <button class="button header-register burger-btn-reg">Register</button>
+            </div>
+            {% endif %}
+            <div class="close-wrapper">
+                <p class="close-menu">Close</p>
+            </div>
+        </div>

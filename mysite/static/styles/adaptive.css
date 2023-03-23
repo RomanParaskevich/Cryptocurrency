@@ -1,0 +1,1399 @@
+@media(max-width: 1440px) {
+    .container {
+        max-width: 1320px;
+
+    }
+
+    .list-logo {
+        margin: 66px 451px 137px 120px;
+        width: 9.385%;
+        height: 40px;
+    }
+
+    .navigation-header {
+        margin-right: 50px
+    }
+
+    .text-header {
+        font-size: 14px;
+    }
+
+    .navigation-items>a {
+        font-size: 14px;
+    }
+
+    .login-field {
+        margin-right: 40px;
+        width: 18%;
+    }
+
+    .header-login>a {
+        font-size: 14px;
+    }
+
+    .header-register {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .sale-information span {
+        font-size: 12px;
+        padding: 6px 16px 6px 16px;
+    }
+
+    .sale-information p {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin: 8px 11px 4px 0;
+    }
+
+    .main-title-content {
+        width: 40.83%;
+        height: 468px;
+        margin: 0px 8px 139px 5.33%;
+        align-items: center;
+    }
+
+    .treid_1 {
+        margin-left: 80px;
+    }
+
+    .main-title-section img {
+        width: 50%;
+    }
+
+    .main-title-content h1 {
+        font-size: 54px;
+    }
+
+    .title-description {
+        font-size: 14px;
+    }
+
+    .title-button {
+        display: flex;
+        align-items: center;
+        width: 180px;
+        height: 58px;
+        margin-right: 386px;
+    }
+
+    .title-btn-text {
+        font-size: 15px;
+    }
+
+    .advantages-list {
+        width: 90%;
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        margin: 100px auto 176.97px;
+    }
+
+    .advantages-subtitle {
+        width: 455px;
+        height: 119.95px;
+        margin-bottom: 23.99px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .btn-advantages {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media(max-width: 1317px) {
+    .container {
+        max-width: 1200px;
+        background-image: url("../img/finalBG.png");
+        margin: 0 auto;
+    }
+
+    .login-field {
+        margin-right: 38px;
+        width: 18%;
+    }
+
+    .main-title-content h2 {
+        font-size: 55px;
+        line-height: 70px;
+        margin: 18px 0;
+    }
+
+    .statistics {
+        width: 100%;
+        margin: 0 0 120px 0;
+    }
+
+    .sale-information span {
+        font-size: 10px;
+        padding: 9px 16px 6px 16px;
+    }
+
+    .main-title-section img {
+        width: 50%;
+    }
+
+    .sale-information p {
+        font-size: 12px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin: 8px 11px 4px 0;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .advantages-title {
+        width: 27.33%;
+        height: 318.89px;
+        margin: 0 0px 137px 70px;
+    }
+
+    .advantages-title .advantages-subtitle {
+        width: 100%;
+    }
+
+    .advantages-title p {
+        width: 100%;
+
+    }
+
+    .advantages-list {
+        width: 100%;
+        height: 92px;
+        display: flex;
+        justify-content: space-between;
+        margin: 100px auto 176.97px;
+    }
+
+    .advantages-title-list {
+        width: 100%;
+    }
+
+    .slider-cadr-item img {
+        width: 21.62%;
+        height: 18.48%;
+        margin: 48px 0 48px 39%;
+    }
+
+    .tracking-info h3 {
+        font-size: 30px;
+    }
+
+    .payment-systems-block {
+        height: 250px;
+    }
+
+    .payment-systems-block h3 {
+        width: 100%;
+        height: 96px;
+        margin-bottom: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1188px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .list-logo {
+        margin: 66px 300px 137px 120px;
+        width: 9.385%;
+        height: 40px;
+    }
+
+    .login-field {
+        margin-right: 0;
+        margin-left: 30px;
+        width: 18%;
+    }
+
+    .sale-information p {
+        font-size: 11px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        margin: 8px 11px 4px 0;
+    }
+
+    .main-title-section img {
+        width: 50%;
+    }
+
+    .advantages-list {
+        margin: 100px auto 100px;
+    }
+
+    .advantages-title .advantages-subtitle {
+        margin-bottom: 23.99px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .slider-title {
+        font-size: 35px;
+        margin: 0 auto 40px;
+    }
+
+    .slider-cadr-item {
+        width: 30.83%;
+        height: 400px;
+        border-radius: 16px;
+        display: none;
+    }
+
+    .tracking-info h3 {
+        font-size: 28px;
+    }
+
+    .tracking-info p {
+        font-size: 14px;
+    }
+
+    .logo-chart img {
+        width: 50.697%;
+        height: 40px;
+        margin-right: 7%;
+    }
+}
+
+@media(max-width: 1075px) {
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .list-logo {
+        margin: 66px 220px 137px 120px;
+        width: 9.385%;
+        height: 40px;
+    }
+
+    .login-field {
+        margin-right: 0;
+        margin-left: 50px;
+        width: 18%;
+    }
+
+    .main-title-content {
+        margin: 0px 8px 139px 5.33%;
+    }
+
+    .sale-information span {
+        font-size: 8px;
+        padding: 10px 16px 6px 16px;
+    }
+
+    .sale-information p {
+        font-size: 10px;
+    }
+
+    .subtitle {
+        font-size: 48px;
+    }
+
+    .title-description {
+        font-size: 12px;
+    }
+
+    .treid_1 {
+        margin-left: 0px;
+    }
+
+    .slider-card {
+        width: 100%;
+        height: 433px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider-cadr-item {
+        width: 35.83%;
+    }
+
+    .charts-block-title {
+        font-size: 33px;
+        line-height: 120%;
+    }
+
+    .charts-invest-smart img {
+        width: 70.15%;
+        height: 427px;
+    }
+
+    .charts-invest-smart {
+        display: flex;
+        width: 90.75%;
+        height: 427px;
+        margin: 100px 4.92% 120px 6.33%;
+    }
+
+    .invest-smart-title {
+        margin: 40px 0 168px 0;
+    }
+
+    .invest-smart-title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tracking-info h3 {
+        font-size: 26px;
+    }
+
+    .footer-logo p {
+        font-size: 12px;
+    }
+
+    .payment-systems-block h3 {
+        font-size: 24px;
+        margin-bottom: 10px
+    }
+
+    .footer-logo img {
+        width: 29.629%;
+        height: 60%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .list-logo {
+        margin: 66px 150px 137px 80px;
+        width: 9.385%;
+        height: 40px;
+    }
+
+    .login-field {
+        margin-right: 0;
+        margin-left: 100px;
+        width: 18%;
+    }
+
+    .sale-information span {
+        font-size: 10px;
+        padding: 10px 16px 6px;
+        width: 40%;
+    }
+
+    .sale-information p {
+        font-size: 6px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 0;
+        height: 200px;
+    }
+
+    .advantages {
+        width: 100%;
+        height: 865px;
+        padding-top: 50px;
+    }
+
+    .advantages-items {
+        width: 300px;
+    }
+
+    .advantages-items-description p {
+        font-size: 14px;
+    }
+
+    .advantages-title .advantages-subtitle {
+        font-size: 25px;
+    }
+
+    .advantages-title {
+        margin: 100px 0px 0 0px;
+        height: 473px;
+        text-align: center;
+    }
+
+    .calculate {
+        width: 100%;
+    }
+
+    .calculate-btn {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .calculate-output {
+        width: 100%;
+        height: 216px;
+    }
+
+    .output-table {
+        display: flex;
+        width: 450px;
+        height: 48px;
+        margin-left: 48px;
+    }
+
+    .warning {
+        margin: 0 0px 48px 48px;
+        width: 60%;
+    }
+
+    .slider-cadr-item {
+        width: 40.83%;
+        height: 380px;
+        border-radius: 16px;
+        display: none;
+    }
+
+    .payment-systems-block h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .modal {
+        width: 40.041%;
+        left: 30%;
+    }
+}
+
+@media(max-width: 900px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .list-logo {
+        margin: 0px;
+        width: 9.385%;
+        height: 40px;
+    }
+
+    .login-field {
+        margin-right: 0;
+        margin-left: 0;
+        width: 18%;
+    }
+
+    .header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation-header {
+        display: none;
+    }
+
+    .login-field {
+        display: none;
+    }
+
+    .main-title-section {
+        justify-content: space-between;
+    }
+
+    .main-title-content {
+        margin: 0px 0 139px 0;
+    }
+
+    .main-title-section {
+        height: 400px;
+    }
+
+    .sale-information {
+        width: 50%;
+    }
+
+    .sale-information span {
+        display: block;
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .sale-information p {
+        display: none;
+        margin: auto;
+        width: 55%;
+        font-size: 10px;
+        height: 50%;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        line-height: 55px;
+        height: 180px;
+    }
+
+    .title-description {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .advantages-items {
+        width: 33.33%;
+    }
+
+    .advantages-items-description h3 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .advantages-items-description p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .treid_1 {
+        width: 400px;
+    }
+
+    .advantages-title-list {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .advantages-title {
+        width: 33%;
+    }
+
+    .advantages-title .advantages-subtitle {
+        margin: 0;
+    }
+
+    .calculate-title .calculate-subtitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    .calculate-form-block {
+        width: 100%;
+        height: 100px;
+    }
+
+    #hash-rate {
+        width: 250px;
+        height: 38px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #E0E0E0;
+        margin: 62px 30px 55px 30px;
+    }
+
+    .estimated {
+        width: 50%;
+    }
+
+    .currency {
+        width: 70%;
+        margin: 0;
+    }
+
+    .dollars {
+        width: 30%;
+    }
+
+    .charts-block {
+        padding-top: 300px;
+    }
+
+    .slider-cadr-item {
+        width: 50.83%;
+    }
+
+    .slider-title {
+        width: 95%;
+    }
+
+    .charts-invest-smart {
+        display: flex;
+        width: 100%;
+        height: 427px;
+        margin: 100px 0 120px 0;
+        justify-content: space-around;
+    }
+
+    .charts-invest-smart img {
+        width: 60.15%;
+        height: 400px;
+    }
+
+    .statistics {
+        width: 100%;
+        height: 650px;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .statistic-info {
+        display: flex;
+        width: 100%;
+        height: 247px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .statistic-info h3 {
+        margin: 0;
+    }
+
+    .statistic-info p {
+        display: none;
+    }
+
+    .charts-block {
+        width: 100%;
+        height: 2050px;
+        padding-top: 250px;
+    }
+
+    .tracking-schedule {
+        width: 100%;
+    }
+
+    .chart-api-title {
+        width: 52%;
+    }
+
+    .feedback-field {
+        width: 100%;
+    }
+
+    .payment-systems-block h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .payment-systems-list {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+
+    .footer-social {
+        width: 100%;
+    }
+
+    .burger-button {
+        display: flex;
+    }
+
+    .calculate-title {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .modal {
+        top: 20%;
+    }
+
+    .invis-form {
+        height: 400px;
+    }
+
+    .invis-btn {
+        font-size: 14px;
+    }
+
+    #invise-login {
+        width: 60%;
+    }
+
+    #invise-pass {
+        width: 60%;
+    }
+
+    .invis-btn {
+        width: 60%;
+    }
+
+    .statistic-info {
+        flex-direction: column;
+    }
+
+    .stat-block {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .statistic-info h3 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 750px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .main-title-content {
+        width: 48%;
+    }
+
+    .advantages-items-description h3 {
+        font-size: 30px;
+    }
+
+    .advantages-items-description p {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+    .advantages-logos {
+        width: 60px;
+        height: 60px;
+        margin-right: 12px;
+    }
+
+    .treid_1 {
+        width: 300px;
+    }
+
+    .advantages-title {
+        width: 43%;
+    }
+
+    #hash-rate {
+        width: 200px;
+    }
+
+    #calculate-select-list {
+        width: 150px;
+    }
+
+    .calculate-btn {
+        width: 80px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider-cadr-item {
+        width: 60.83%;
+    }
+
+    .charts-block-title {
+        margin: 0;
+        width: 100%;
+    }
+
+    .tracking-info {
+        width: 37.83%;
+        height: 295px;
+        margin: 10px 4.44% 29px 0;
+    }
+
+    .tracking-info h3 {
+        font-size: 22px;
+    }
+
+    .tracking-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .charts-btn {
+        width: 130px;
+    }
+
+    .btn-upd {
+        width: 30%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .price,
+    .change,
+    .volume {
+        font-size: 12px;
+    }
+
+    .logo-chart .title-cryptocurrency h4 {
+        display: none;
+    }
+
+    .title-cryptocurrency p {
+        display: none;
+    }
+
+    .logo-chart {
+        flex-basis: 80px;
+        margin: 0;
+    }
+
+    .chart-api-title {
+        margin-left: 40%;
+    }
+
+    .chart-api-title-item p {
+        font-size: 10px;
+    }
+
+    .tracking-schedule {
+        margin: 0;
+    }
+
+    .feedback-title h3 {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .feedback-title p {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .feedback-form {
+        width: 50.16%;
+        height: 55px;
+    }
+
+    .feedback-btn {
+        width: 31.86%;
+    }
+
+    .payment-systems-block h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .resources {
+        width: 18.666%;
+        height: 350px;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        width: 15.479%;
+    }
+
+    .social-block {
+        width: 25.666%;
+    }
+
+    .footer-social p {
+        width: 50.58%;
+    }
+
+    .footer-social {
+        height: 50px;
+    }
+
+    .modal {
+        width: 45.041%;
+        left: 27%;
+    }
+
+    .invis-form {
+        height: 400px;
+    }
+
+    .invis-btn {
+        font-size: 12px;
+    }
+
+    .invis-content-title {
+        font-size: 26px;
+        height: 70px;
+    }
+
+    .invis-content-subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #invise-login {
+        width: 60%;
+    }
+
+    #invise-pass {
+        width: 60%;
+    }
+
+    .invis-btn {
+        width: 60%;
+    }
+}
+
+@media(max-width: 550px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .cur-mon {
+        font-size: 24px;
+        margin-right: 0;
+    }
+
+    .main-title-section {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .sale-information {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .title-description {
+        text-align: center;
+    }
+
+    .title-button {
+        display: flex;
+        align-items: center;
+        width: 180px;
+        height: 58px;
+        margin: 0 auto;
+    }
+
+    .main-title-content {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main-title-section img {
+        width: 100%;
+        margin: 15px auto 0;
+    }
+
+    .advantages-title-list {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .advantages {
+        height: 900px;
+    }
+
+    .advantages-items {
+        width: 33.33%;
+        display: block;
+        text-align: center;
+    }
+
+    .advantages-logos {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .advantages-items-description {
+        width: 100%;
+        height: 100%;
+    }
+
+    .advantages-items-description h3 {
+        font-size: 100%;
+        display: inline-block;
+    }
+
+    .advantages-items-description p {
+        display: inline-block;
+    }
+
+    .advantages-title {
+        width: 100%;
+    }
+
+    .calculate-title {
+        width: 100%;
+    }
+
+    .calculate-title .calculate-subtitle {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .calculate-title p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .calculate {
+        width: 100%;
+        border: 1px solid #E0E0E0;
+        height: 450px;
+    }
+
+    .calculate-form-block {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #hash-rate {
+        width: 200px;
+        margin: 0;
+    }
+
+    .calculate-output {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .estimated {
+        width: 100%;
+        margin: 0;
+        height: 10%;
+        text-align: center;
+    }
+
+    .output-table {
+        display: block;
+        width: 100%;
+        margin: 0;
+        height: 40%;
+        text-align: center;
+    }
+
+    .warning {
+        margin: 0;
+        width: 60%;
+    }
+
+    .currency {
+        font-size: 16px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .dollars {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .warning {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slider-card {
+        width: 100%;
+        height: 280px;
+    }
+
+    .slider-title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .slider-cadr-item {
+        width: 60.83%;
+        height: 200px;
+    }
+
+    .card-info {
+        display: none;
+    }
+
+    .after-btn,
+    .before-btn {
+        width: 45px;
+        height: 45px;
+        background-color: white;
+    }
+
+    .after-btn img,
+    .before-btn img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider-cadr-item img {
+        display: block;
+        width: 30%;
+        height: 30%;
+        margin: 20px auto 40px;
+    }
+
+    .card-information-title {
+        font-size: 26px;
+    }
+
+    canvas {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .charts-block {
+        padding-top: 80px;
+        height: 2350px
+    }
+
+    .charts-block-title {
+        margin: 0;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .charts-invest-smart {
+        flex-direction: column;
+        height: 600px;
+        text-align: center;
+        justify-content: space-around;
+        margin: 50px 0 0;
+    }
+
+    .invest-smart-title {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .invest-smart-title p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        margin: 15px 0 20px 0;
+    }
+
+    .charts-invest-smart img {
+        width: 100%;
+    }
+
+    .statistics {
+        width: 100%;
+        height: 650px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .charts-btn {
+        width: 40%;
+    }
+
+    .statistic-info h3 {
+        width: 60%;
+    }
+
+    .tracking-schedule {
+        margin: 0;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .tracking-info {
+        width: 100%;
+        height: 295px;
+        margin: 10px 4.44% 29px 0;
+        text-align: center;
+    }
+
+    .tracking-info p {
+        width: 100%;
+        margin: 00 5%;
+    }
+
+    .chart-api-cryptocurrency {
+        width: 100%;
+        height: 334px;
+    }
+
+    .feedback {
+        padding-top: 0px;
+    }
+
+    .feedback-field {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .feedback-title {
+        width: 90%;
+        height: 50%;
+    }
+
+    .feedback-title h3 {
+        font-size: 24px;
+        line-height: 100%;
+        margin: 0;
+    }
+
+    .feedback-form {
+        width: 90%;
+        height: 55px;
+    }
+
+    .feedback-form form {
+        width: 100%;
+        height: 50%;
+    }
+
+    .footer {
+        padding-top: 0px;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        width: 15%;
+    }
+
+    .footer-logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-logo p {
+        display: none;
+    }
+
+    .quick-link {
+        width: 20%;
+    }
+
+    .resources {
+        width: 25%;
+    }
+
+    .payment-systems-block {
+        height: 25%;
+    }
+
+    .quick-link h3 {
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .quick-link-items {
+        text-align: center;
+    }
+
+    .quick-link-items a {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .resources h3 {
+        font-size: 14px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .resources-item a {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .payment-systems-block h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .payment-systems-list img {
+        width: 100%;
+    }
+
+    .social-block {
+        width: 100%;
+    }
+
+    .footer-social p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-social {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100px;
+    }
+
+    .header-container {
+        padding-top: 20px;
+    }
+
+    .modal {
+        width: 80.041%;
+        left: 10%;
+    }
+
+    .invis-bar {
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .invis-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .invis-form {
+        width: 100%;
+        height: 60%;
+    }
+
+    .invis-content-title {
+        font-size: 26px;
+        height: 50px;
+    }
+}

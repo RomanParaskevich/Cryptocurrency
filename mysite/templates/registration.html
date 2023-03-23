@@ -1,0 +1,20 @@
+<form class="modal__form modal__form_register"action="{% url 'registration' %}" method="POST">
+    {% csrf_token %}
+                <div class="modal__title">
+                    <p class="modal__title-text_owner">Register An Account</p>
+                    <p class="modal__title-text">Register an account to enjoy all the services without any ads for free!
+                    </p>
+                </div>
+                <div class="modal__input-container-register">
+                    <input id="register-name" type="text" class="modal__input-register modal__input_name"
+                        placeholder="Enter your name" name="username">
+                    <input id="register-email" type="text" class="modal__input-register modal__input_email"
+                        placeholder="Enter your email" name="email">
+                    <input id="register-pass" type="password" class="modal__input-register modal__input_pass"
+                        placeholder="Enter your password" name="password">
+                    <input id="register-pass-repeat" type="password"
+                        class="modal__input-register modal__input_pass-replay" placeholder="repeat the password" name="password2">
+                </div>
+
+                <button class="modal__btn">Register</button>
+            </form>

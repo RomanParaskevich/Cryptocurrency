@@ -1,0 +1,16 @@
+<section class="feedback">
+                <h2 class="hidden">feedback</h2>
+                <ul class="feedback-field">
+                    <li class="feedback-title">
+                        <h3>Start mining now</h3>
+                        <p>Join now with CRAPPO to get the latest news and start mining now</p>
+                    </li>
+                    <li class="feedback-form">
+                        <form class="feedback-form-list" method="POST" action="{% url 'subscribers' %}">
+                            {% csrf_token %}
+                            <input id="feedback-email" type="text" placeholder="Enter your email" name="email">
+                            <button class="button feedback-btn">Subscribe</button>
+                        </form>
+                    </li>
+                </ul>
+            </section>

@@ -1,0 +1,53 @@
+{% load static %}
+<footer class="footer">
+            <section class="footer-links">
+                <h2 class="hidden">links</h2>
+                <a class="footer-logo" href="/.">
+                    <img src="{% static "logos/Logo-header.png" %}" alt="main logo">
+                    <p>CRAPPO</p>
+                </a>
+                {% for foot in footer|slice:":2" %}
+                <div class="{{ foot.div_class }}">
+                    <h3>{{ foot.description }}</h3>
+                    <ul class="{{ foot.ul_class }}">
+                        {% for item in foot.inline.all %}
+                        <li class="{{ item.li_class }}">
+                            <a href="{{ item.url }}">{{ item.header }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+                {% for payment in footer|slice:"2:" %}
+                <div class="{{ payment.div_class }}">
+                    <h3>{{ payment.description }}</h3>
+                    <ul class="{{ payment.ul_class }}">
+                        {% for item in payment.inline.all %}
+                        <li class="{{ item.li_class }}">
+                            <a href="{{ item.url }}">
+                                <img src="{{ item.image.url }}" alt="{{ item.header }}">
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </section>
+            <section class="footer-social">
+                <h2 class="hidden">social links</h2>
+                <p>©2021 CRAPPO. All rights reserved</p>
+                <div class="social-block">
+                    <ul class="social-list">
+                        {% for network in social_networks %}
+                        <li class="social-item">
+                            <a href="{{ network.url }}">
+                                <img src="{{ network.image.url }}" alt="{{ network.header }}">
+                            </a>
+                        </li>
+                        {% endfor %}
+
+
+                    </ul>
+                </div>
+            </section>
+        </footer>

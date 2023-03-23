@@ -1,0 +1,22 @@
+<form class="modal__form modal__form_login" action="{% url 'login' %}" method="POST">
+    {% csrf_token %}
+                <div class="modal__title">
+                    <p class="modal__title-text_owner">Login An Account</p>
+                    <p class="modal__title-text">login an account to enjoy all the services without any ads for free!
+                    </p>
+                </div>
+
+                <div class="modal__input-container">
+                    <!-- <p class="modal__text">Email</p> -->
+                    <input id="login-email" type="text" class="modal__input modal__input_email"
+                        placeholder="Enter your login" name="username">
+                </div>
+
+                <div class="modal__input-container">
+                    <!-- <p class="modal__text">Password</p> -->
+                    <input id="login-pass" type="password" class="modal__input modal__input_pass"
+                        placeholder="Enter your password" name="password">
+                </div>
+
+                <button id="form-login-btn" class="modal__btn" type="submit">Login</button>
+            </form>

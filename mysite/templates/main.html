@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if request.user.is_authenticated %}
+{% for header in headers|slice:":4" %}
+    <a href="{{ header.url }}">{{ header.description }}</a>
+{% endfor %}
+<a href="{% url 'logout' %}">Logout</a>
+{% else %}
+    {% for header in headers %}
+    <a href="{{ header.url }}">{{ header.description }}</a>
+{% endfor %}
+{% endif %}
+<br><br><br>
+{% for advertising in advertisings %}
+    <p>{{ advertising.header }}<br>
+        {{ advertising.description }}</p>
+{% endfor %}
+<br><br><br>
+{% for info in main_info %}
+    <p>{{ info.header }} : {{ info.description }}</p>
+{% endfor %}
+<br><br><br>
+{% include 'subscribers.html' %}
+
+<br><br><br>
+{% for foot in footer %}
+{{ foot }} |
+    {% for item in foot.inline.all %}
+        <a href="{{ item.url }}">{{ item }}</a>
+    {% endfor %}
+{% endfor %}
+<br><br><br>
+{% for item in social_networks %}
+    <a href="{{ item.url }}">{{ item }}{{ item.image }}</a>
+{% endfor %}
+
+</body>
+</html>

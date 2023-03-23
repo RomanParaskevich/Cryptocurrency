@@ -1,0 +1,50 @@
+{% load static %}
+<header>
+            <div class="header-container">
+                <ul class="list-logo">
+                    <li class="item-logo">
+                        <a href="/." class="logo-header">
+                            <img src="{% static "logos/Logo-header.png" %}" alt="Crappo logo" class="start-logo">
+                        </a>
+                    </li>
+                    <li class="item-logo-header item-logo">
+                        <a href="/." class="text-header">
+                            <span class="start-text">CRAPPO</span>
+                        </a>
+                    </li>
+                </ul>
+                <nav class="navigation-header">
+                    <ul class="navigation-list">
+                        {% for header in headers|slice:":4" %}
+                        <li class="navigation-items nav-item-one">
+                            <a href="{{ header.url }}" class="navigation-link">{{ header.description }}</a>
+                        </li>
+                        {% endfor %}
+
+                    </ul>
+                </nav>
+            {% if request.user.is_authenticated %}
+                <div class="login-field">
+                    <p class="header-login">
+                        <a href="{% url 'logout' %}">Logout</a>
+                    </p>
+                </div>
+
+            {% else %}
+                <div class="login-field">
+                    <p class="header-login" id="header-loggout">
+                        <a href="{{ headers.4.url }}" class="header-login-link">{{ headers.4.description }}</a>
+                    </p>
+                    <span class="border">
+                        <img src="{% static "logos/Divider.png" %}" alt="border">
+                    </span>
+                    <button class="button header-register" id="header-register">{{ headers.5.description }}</button>
+                </div>
+            {% endif %}
+            <div class="burger-button">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </div>
+            </div>
+        </header>
